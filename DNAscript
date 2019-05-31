@@ -1,0 +1,6 @@
+dna_letters = "ATGC"
+rna_letters = "GCTA"
+rna = maketrans(dna_letters, rna_letters)
+
+dna = input
+print dna.translate(rna)
